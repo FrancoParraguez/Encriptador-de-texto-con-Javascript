@@ -1,0 +1,113 @@
+*{
+    background:white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    
+}
+
+.logo{
+    padding-top: 25px;
+    margin-left: 25px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.text-area {
+    height: 400px;
+    border: none;
+    border-radius: 24px;
+    border: 1px solid #3581B8;
+    background: #EBE9E9;
+    color: #0A3871;
+    margin-top: 20px;
+    padding: 20px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    height: 630px;
+    background: white;
+    background-image: url("../Challenge1/imagenes/document-encryption.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    border: 1px solid #FCB07E;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #CEFDFF;
+    border: 1px solid #BBD5ED;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #3581B8;
+    border: 1px solid #DEE2D6;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-borrar {
+    background: #FCB07E;
+    font-size: 24px;
+    border: 1px solid #BBD5ED;
+    border-radius: 14px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 40px;
+    width: 120px;
+    line-height: 40px;
+}
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion {
+    color: #495057;
+    font-size:18px;
+}
